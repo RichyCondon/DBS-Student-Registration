@@ -1,0 +1,60 @@
+CREATE TABLE [dbo].[Students_History] (
+    [Id]              INT      IDENTITY (1, 1) NOT NULL,
+    [Student_Added]   BIT      NOT NULL,
+    [Student_Edited]  BIT      NOT NULL,
+    [Student_Deleted] BIT      NOT NULL,
+    [Action_Date]     DATETIME DEFAULT (getdate()) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Students] (
+    [Student_Id]    INT           NOT NULL,
+    [First Name]    NVARCHAR (50) NULL,
+    [Last Name]     NVARCHAR (50) NULL,
+    [Email]         NVARCHAR (50) NULL,
+    [Phone Number]  NVARCHAR (50) NULL,
+    [Address Line1] NVARCHAR (50) NULL,
+    [Address Line2] NVARCHAR (50) NULL,
+    [City]          NVARCHAR (50) NULL,
+    [Country]       NVARCHAR (50) NULL,
+    [Level]         NVARCHAR (50) NULL,
+    [Course]        NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Student_Id] ASC)
+);
+
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (123, N'Paul', N'Pot', N'paul@mail.com', N'098675324', N'23 Address Street', N'The Drive', N'Cork', N'Cork', N'7', N'Higher Diploma In Computing')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (8976, N'Jim', N'Jimmerson', N'jimmerson@gmail.com', N'0987542788', N'78 Parkway Drive', N'The Road', N'Kilkenny', N'Kilkenny', N'8', N'B.Eng In Shipbuilding')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (9853, N'Sarah', N'Sarahson', N'ss@demigod.com', N'0897654321', N'345 Apartment Villas', N'Rue Road, D12', N'Dublin', N'Dublin', N'10', N'MSc Powerlifting')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (75263, N'Majiek', N'O''Brien', N'leave@bio.ie', N'66666666666', N'20 Homepark Way', N'Borris-In-Ossary', N'Hell', N'Offaly', N'7', N'Advanced Dip. Services')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (87365, N'Karl', N'Lrak', N'resident@leitrim.ie', N'0865431278', N'Budgie Cottage', N'Leitrim', N'Leitrim City', N'Leitrim', N'10', N'PhD in Silaging & Other Leitrim Activities')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (9754367, N'Jemimah', N'Proper', N'jemimi@hotmail.com', N'0876542311', N'45 The Links', N'Shortmile Rd', N'Limerick', N'Limerick', N'6', N'Certificate in Pontification')
+INSERT INTO [dbo].[Students] ([Student_Id], [First Name], [Last Name], [Email], [Phone Number], [Address Line1], [Address Line2], [City], [Country], [Level], [Course]) VALUES (23091876, N'Richard', N'Condon', N'Ireland', N'Dublin', N'r@email.com', N'098767654', N'Bla', N'Va', N'8', N'Science')
+
+SET IDENTITY_INSERT [dbo].[Students_History] ON
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (1, 0, 0, 1, N'2019-06-20 22:00:21')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (2, 1, 0, 0, N'2019-06-22 16:49:59')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (3, 0, 0, 1, N'2019-06-22 16:50:14')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (4, 1, 0, 0, N'2019-06-22 17:00:15')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (5, 1, 0, 0, N'2019-06-22 17:10:04')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (6, 1, 0, 0, N'2019-06-22 19:57:38')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (7, 1, 0, 0, N'2019-06-22 21:07:58')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (8, 0, 0, 1, N'2019-06-24 16:58:41')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (9, 0, 0, 1, N'2019-06-24 18:17:54')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (10, 1, 0, 0, N'2019-06-25 15:48:41')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (11, 1, 0, 0, N'2019-06-25 15:50:41')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (12, 0, 0, 1, N'2019-06-25 16:04:38')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (13, 0, 0, 1, N'2019-06-25 17:29:46')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (14, 1, 0, 0, N'2019-06-26 15:39:37')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (15, 0, 0, 1, N'2019-06-26 15:39:45')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (16, 0, 0, 1, N'2019-06-26 16:02:23')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (17, 0, 1, 0, N'2019-06-26 16:02:41')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (18, 1, 0, 0, N'2019-06-26 16:03:33')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (19, 0, 0, 1, N'2019-06-30 21:38:20')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (20, 0, 0, 1, N'2019-06-30 21:38:29')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (21, 1, 0, 0, N'2019-06-30 21:40:10')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (22, 1, 0, 0, N'2019-06-30 21:41:29')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (23, 1, 0, 0, N'2019-06-30 21:43:29')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (24, 1, 0, 0, N'2019-06-30 21:45:53')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (25, 1, 0, 0, N'2019-06-30 21:47:38')
+INSERT INTO [dbo].[Students_History] ([Id], [Student_Added], [Student_Edited], [Student_Deleted], [Action_Date]) VALUES (26, 1, 0, 0, N'2019-06-30 21:50:55')
+SET IDENTITY_INSERT [dbo].[Students_History] OFF

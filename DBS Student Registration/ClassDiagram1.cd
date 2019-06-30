@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DBS_Student_Registration.Student">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAACAAAAAMAYAAQYABAAIAAAABACAQAgASAAg=</HashCode>
+      <FileName>Business\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Login" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAgIAAAAAAAAAAAAACIAEAAAA=</HashCode>
+      <FileName>DataAccess\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.AddStudent" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQCgABQAIaAAZA2EBAKAHFQCQY0gCAFEJilQAgAIAAE=</HashCode>
+      <FileName>Forms\AddStudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.LandingPage" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAQAAAASAAAAAAAACAAAACAAgACAAAGAAAAABAAAA=</HashCode>
+      <FileName>Forms\LandingPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.LoginScreen" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASBAABBCAACAAAACAAiAAAAAAAAAAAAAMQA=</HashCode>
+      <FileName>Forms\LoginScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.StudentInterface" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hACgAIRAAXIoBAgACACAFAwCAAyAAANEQAkAABAAAgA=</HashCode>
+      <FileName>Forms\StudentInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Program" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.StudentsDataSet" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.DataAccess.AddData">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DataAccess\AddData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.DataAccess.DAO">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAABAAEAAAQQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.DataAccess.DeleteData">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DeleteData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.DataAccess.EditData">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\EditData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.DataAccess.XMLExport">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\XMLExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Forms.DBHistory" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACgIAAgASIAQAkACACABEECAAwACAEEAAkAAAAAAAA=</HashCode>
+      <FileName>Forms\DBHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Forms.EditStudentForm" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQCgABQAAaIABAkEDAiEGEwCQQwgAAFEJAFAAgAIAAE=</HashCode>
+      <FileName>Forms\EditStudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Forms.StudentDeleteForm" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACgAAAAASIgBAkACAiEFEACAAggAAAESAkAAgQAAAA=</HashCode>
+      <FileName>Forms\StudentDeleteForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Forms.XMLExportForm" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACwAAQAAaIABB2ADACAHEQCQB1gAAFELikSIgQAgAE=</HashCode>
+      <FileName>Forms\XMLExportForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Properties.Resources" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.Properties.Settings" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.StudentsDataSetTableAdapters.StudentsTableAdapter" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBS_Student_Registration.StudentsDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DBS_Student_Registration.StudentsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="DBS_Student_Registration.StudentsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EQAAACAAAABABAEBAAAAMgAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
